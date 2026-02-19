@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Saya</title>
+    <style>
+        /* Mengatur tampilan dasar */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Kartu Biodata */
+        .card {
+            background:  #00BFFF;
+            width: 90%;
+            max-width: 450px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,255,0.5);
+            text-align: center;
+        }
+
+        /* Foto Profil */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #007bff;
+            margin-bottom: 15px;
+        }
+
+        h2 { margin: 10px 0; color: #333; }
+        p { color: #666; line-height: 1.6; }
+
+        /* Tabel Detail */
+        .info-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .info-table td {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .label { font-weight: bold; color: #007bf; width: 40%; }
+
+        
+        /* Tombol Kontak */
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 25px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn:hover { background-color: #0056b3; }
+        
+        /* Tombol Portofilio */
+        .second-btn {
+          color: white;
+          
+}
+
+        .second-btn:hover {
+          background-color: #0056b3;
+          color: black;
+          box-shadow: 0 0 30px #0056b3;
+}
+    </style>
+</head>
+<body>
+
+<div class="card">
+   <img src="https://i.postimg.cc/SRh7LvYR/a1c848e7df7ef0252490fc95a675af16-6.jpg" alt="Foto Profil" class="profile-img">
+
+
+
+    
+    <h2>Adimas Pangestu Azidan R.</h2>
+    <p>Web Developer | Tech Enthusiast</p>
+
+    <table class="info-table">
+        <tr>
+            <td class="label">Tempat Lahir</td>
+            <td>Boyolali</td>
+        </tr>
+        <tr>
+            <td class="label">Tanggal Lahir</td>
+            <td>02 April 2010</td>
+        </tr>
+        <tr>
+            <td class="label">Pendidikan</td>
+            <td>Menengah Atas</td>
+        </tr>
+        <tr>
+            <td class="label">Keahlian</td>
+            <td>HTML, Python, JavaScript, C++, and Lua</td>
+        </tr>
+    </table>
+
+   
+    <a href="mailto:adimaspangestu16@gmail." class="btn">HUBUNGI SAYA</a>
+    <a href="#" class="btn second-btn">PORTFOLIO</a>
+</div>
+
+</body>
+</html>
